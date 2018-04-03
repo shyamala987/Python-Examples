@@ -1,5 +1,3 @@
-#!/usr/intel/bin/python
-
 st = raw_input('Enter a string\n')
 club_st = ''.join(st.split())
 #club_st = ' '.join(st)
