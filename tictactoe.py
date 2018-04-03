@@ -1,6 +1,3 @@
-#!/usr/intel/bin/python
-
-
 p1key = raw_input('Player1: Do you want to play with X or O?\n')
 if (p1key == 'X'):
 	p2key = 'O'
