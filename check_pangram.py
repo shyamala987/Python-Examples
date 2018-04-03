@@ -1,6 +1,3 @@
-#!/usr/intel/bin/python
-
-
 import string
 
 def is_pangram(st,alphabet=string.ascii_lowercase):
