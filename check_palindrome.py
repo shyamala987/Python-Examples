@@ -12,3 +12,4 @@ for i in range(mid):
 else:
 	print '{} is a palindrome!\n'.format(st)
 	
+print 'All done!'
