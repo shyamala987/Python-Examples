@@ -15,7 +15,8 @@ on:
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
-env: name = 'Shyamala'
+env: 
+  name: 'Shyamala'
 jobs:
   build:
     # The type of runner that the job will run on
@@ -33,6 +34,7 @@ jobs:
   pull_request_only:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    if: github.event_actions == 'pull_request'
     needs: build
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
