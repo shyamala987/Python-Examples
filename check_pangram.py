@@ -11,3 +11,5 @@ def is_pangram(st,alphabet=string.ascii_lowercase):
 is_pangram('The quick brown fox jumps over the lazy dog')
 
 is_pangram('Lazy me!!')
+
+is_pangram('Hey there')
